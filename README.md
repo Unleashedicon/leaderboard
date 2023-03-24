@@ -68,7 +68,7 @@ my project is a simple HTML CSS and JAVASCRIPT page whose primary goal is is to 
 ### Key Features <a name="key-features"></a>
 
 
-- **It is a project that checks understandability of webpacks and APIs**
+- **It is a project that checks understandability of webpacks and APIs a nd deployment**
 - **Implementing best practices for file structure, naming conventions, and commenting, to ensure code readability and maintainability**
 - **Familiarizing with the tools and workflow that will be used in future projects, so that you can work more efficiently and effectively.**
 
