@@ -1,0 +1,48 @@
+{
+  "name": "leaderboard",
+  "version": "1.0.0",
+  "description": "\"leaderboar api\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "build": "webpack",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unleashedicon/leaderboard.git"
+  },
+  "keywords": [
+    "leaderboard"
+  ],
+  "author": "kelvin kipkurui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Unleashedicon/leaderboard/issues"
+  },
+  "homepage": "https://github.com/Unleashedicon/leaderboard#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.27.5",
+    "hint": "^7.1.5",
+    "style-loader": "^3.3.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1"
+  }
+}
