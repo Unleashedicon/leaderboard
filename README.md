@@ -53,7 +53,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 personal-portfolio <a name="about-project"></a>
+# 📖 Leaderboard<a name="about-project"></a>
 
 
 my project is a simple HTML CSS and JAVASCRIPT page whose primary goal is is to master all of the tools and best practices learnt. 
