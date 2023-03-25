@@ -1,24 +1,20 @@
 import './styles.css';
-import Scorelist from './modules/list.js';
+// API URL
+import { getScores, addScore, createGame } from './modules/getscores.js';
 
-const scoreboard = new Scorelist();
-
-scoreboard.display();
-
-const submitBtn = document.querySelector('#submitscore');
-submitBtn.addEventListener('click', (event) => {
-  const nameinput = document.querySelector('#name');
-  const scoreinput = document.querySelector('#score');
-  const name = nameinput.value;
-  const score = scoreinput.value;
-  scoreboard.add(name, score);
+// Event listeners
+document.getElementById('submitscore').addEventListener('click', (event) => {
   event.preventDefault();
-  nameinput.value = '';
-  scoreinput.value = '';
+  const name = document.getElementById('name').value;
+  const score = document.getElementById('score').value;
+  addScore(name, score);
+  document.getElementById('scoreinput').reset();
 });
 
-const refreshbtn = document.querySelector('#refresh');
-refreshbtn.addEventListener('click', (event) => {
-  scoreboard.refresh();
+document.getElementById('refresh').addEventListener('click', (event) => {
   event.preventDefault();
+  getScores();
 });
+
+// Initialization
+createGame('My cool new game');
