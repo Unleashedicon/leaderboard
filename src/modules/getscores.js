@@ -1,9 +1,7 @@
 const apiUrl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/';
 
-// Variables
 let gameId;
 
-// Functions
 const getScores = async () => {
   try {
     const response = await fetch(`${apiUrl}games/${gameId}/scores/`);
