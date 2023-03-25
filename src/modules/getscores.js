@@ -30,8 +30,7 @@ const addScore = async (name, score) => {
         score,
       }),
     });
-    const data = await response.json();
-    console.log(data);
+    await response.json();
   } catch (error) {
     console.error(error);
   }
@@ -50,7 +49,6 @@ const createGame = async (name) => {
     });
     const data = await response.json();
     gameId = data.result.substring(11, 33);
-    console.log(data);
   } catch (error) {
     console.error(error);
   }
