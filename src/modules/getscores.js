@@ -32,7 +32,6 @@ const addScore = async (name, score) => {
     });
     const data = await response.json();
     console.log(data);
-    getScores();
   } catch (error) {
     console.error(error);
   }
