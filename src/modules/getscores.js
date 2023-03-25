@@ -10,6 +10,7 @@ const getScores = async () => {
     scoreboard.innerHTML = '';
     data.result.forEach((score) => {
       const li = document.createElement('li');
+      li.classList.add('score-list')
       li.textContent = `${score.user}: ${score.score}`;
       scoreboard.appendChild(li);
     });

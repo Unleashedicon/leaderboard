@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@500&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -11,6 +12,7 @@ body {
   align-items: center;
   padding-top: 20px;
   gap: 80px;
+  background-color: rgb(4, 4, 26)
 }
 
 #section {
@@ -40,4 +42,46 @@ ul li {
   display: flex;
   flex-direction: row;
   gap: 10px;
+}
+
+#scoreboard {
+  background-color: black;
+}
+
+input {
+  border-radius: 10px;
+  height: 40px;
+  background-color: #fff;
+  width: 200px;
+  padding-left: 10px;
+}
+
+h2 {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+button {
+  width: 70px;
+  height: 40px;
+  background-color: orangered;
+  border-radius: 10px;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.score-list {
+  font-family: 'Inter', sans-serif;
+  height: 40px;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Crete Round', serif;
+  color: #fff;
 }
